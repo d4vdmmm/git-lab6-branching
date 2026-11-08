@@ -4,9 +4,8 @@ class Main {
             System.out.println("Использование: java Main [--help|--version]");
             return;
         }
-
         if (args.length > 0 && "--version".equals(args[0])) {
-            System.out.println("Практическая работа №6, ветка main");
+            System.out.println("Практическая работа №6, ветки main и dev объединены");
             return;
         }
 
@@ -16,6 +15,7 @@ class Main {
             return;
         }
 
-        System.out.print("Это добавлено в ветке main");
+        System.out.println("Это добавлено в ветке main");
+        System.out.println("Это добавлено в ветке dev");
     }
 }
