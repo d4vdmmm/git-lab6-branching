@@ -10,6 +10,12 @@ class Main {
             return;
         }
 
+        if (args.length > 0) {
+            System.out.println("Неизвестная команда: " + args[0]);
+            System.out.println("Использование: java Main [--help|--version]");
+            return;
+        }
+
         System.out.print("Это добавлено в ветке main");
     }
 }
